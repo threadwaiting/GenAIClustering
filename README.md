@@ -6,3 +6,5 @@ Sentence-Transformers can be used in different ways to perform clustering of sma
 SBERT Fast Clustering algorithm could be used for clustering large datasets (50k sentences in less than 5 seconds). In a large list of sentences it searches for local communities (A local community is a set of highly similar sentences).
 
 The threshold of cosine-similarity could be configured for which we consider two sentences as similar. Also, we can specify the minimal size for a local community. This allows us to get either large coarse-grained clusters or small fine-grained clusters.
+
+Refer: https://threadwaiting.com/clustering-faster/
